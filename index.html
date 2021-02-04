@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <title> On This Day Kobe </title>
+	
+	<!-- <link href="bootstrap-4.5.0-dist/css/bootstrap.css">-->
+    <meta charset = "UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="Upload">
+        <script type="text/javascript" src="index.js"></script>
+        <input type ="file" id="csvFileInput" onchange="handleFiles(this.files)" accept=".csv">
+    </div>
+    
+    <div class="container-fluid work">
+            <h2>Kobe Bryant Scored</h2>
+            <h2><span id="points">0</span><span id="pointsText"> total points</span></h2>
+            <h2 id="dateText">
+                <script>
+                    var months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.","Sept.", "Oct.", "Nov.", "Dec."];
+                    var today = new Date(); 
+                    var month = today.getMonth(); 
+                    var day = today.getDate();
+                    document.getElementById("dateText").innerHTML = "On " + months[month] + " "+ day + "th " + "throughout his career";
+                </script>
+            </h2>
+        <ul  id="list">
+            <!-- The script itself will fill up this area w the list of all the games-->
+        </ul>
+    </div>
+    
+</body>
+</html>

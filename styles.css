@@ -1,0 +1,48 @@
+body{
+    background-color:#FDBA21;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#Upload {
+    margin-left: 50px;
+}
+input[type=file]{
+    color: #FDBA21;
+}
+
+.container-fluid{
+    vertical-align: middle;
+}
+.container-fluid h2{
+    color: #552084;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin:0;
+}
+#points{
+    color: #552084;
+    font-family: 'Open Sans', sans-serif;
+    font-size:40px;
+    font-weight:bold;
+}
+#pointsText {
+    color: #552084;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+ul{
+    list-style-type: none;
+}
+li {
+    color: #552084;
+    font-family: 'Open Sans', sans-serif;
+    font-size:120%;
+    font-weight: 500; 
+    padding-top:0.5%;
+    text-align: justify;
+}

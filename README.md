@@ -1,5 +1,5 @@
 # On-This-Day-Kobe
-Created a responsive web app to display the achievements of Kobe Bryant on any given day
+Created a responsive web app using JavaScript to display the achievements of Kobe Bryant on any given day
 
 ## How It Works
 When a user opens the page, there is a button present for the user to submit the csv file containing the career stats of Kobe Bryant.
